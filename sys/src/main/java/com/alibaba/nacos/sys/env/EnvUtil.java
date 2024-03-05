@@ -240,7 +240,7 @@ public class EnvUtil {
         if (Objects.isNull(isStandalone)) {
             isStandalone = Boolean.getBoolean(Constants.STANDALONE_MODE_PROPERTY_NAME);
         }
-        return isStandalone;
+        return true;
     }
     
     /**
